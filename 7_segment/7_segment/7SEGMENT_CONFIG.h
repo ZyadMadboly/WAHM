@@ -5,7 +5,7 @@
  *  Author: khaled
  */ 
 
-
+---------- ZEYAD -------------
 #ifndef _7SEGMENT_CONFIG_H_
 #define _7SEGMENT_CONFIG_H_
 
