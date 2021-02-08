@@ -1,9 +1,9 @@
 #don't track anything 
 
-!*
+*
 
 #except this 
 
-*.h
+!*.h
 
 
