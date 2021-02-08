@@ -6,4 +6,8 @@
 
 !*.h
 
+#even it in sub folder 
+
+!*/
+
 
