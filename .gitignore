@@ -5,6 +5,7 @@
 #except this 
 
 !*.h
+!*.c 
 
 #even it in sub folder 
 
