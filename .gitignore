@@ -1,3 +1,9 @@
-#don't track this 
+#don't track anything 
+
+*
+
+#except this 
 
 *.h
+
+
