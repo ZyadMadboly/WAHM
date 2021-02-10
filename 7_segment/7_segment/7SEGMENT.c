@@ -26,10 +26,10 @@ void _7SEG_ON (Uint8t num , Uint8t position) {
 	if (position == 'L'){
 		CLR_BIT(_7SEG_EN2_PORT , EN_2_PIN);
 		SET_BIT(_7SEG_EN1_PORT , EN_1_PIN);
-		}else if (position == 'R'){
+	}else if (position == 'R'){
 		CLR_BIT(_7SEG_EN1_PORT , EN_1_PIN);
 		SET_BIT(_7SEG_EN2_PORT , EN_2_PIN);
-		}
+	}
 	if (num == 1){
 		_7SEG_RESET();
 		SET_BIT(_7SEG_A_DATA_PORT , A_PIN); 	
@@ -72,8 +72,8 @@ void _7SEG_DISPLAY(Uint8t left , Uint8t right , Uint16t time_){
 	time_/=2 ; //cuz this function use 2ms (1ms for each 7seg)
 	for ( ; time_>0 ; time_--){
 		_7SEG_ON (left , 'L');
-		_delay_ms(1);
+		_delay_ms(200);
 		_7SEG_ON (right , 'R');
-		_delay_ms(1);	
+		_delay_ms(200);	
 	}
 }
