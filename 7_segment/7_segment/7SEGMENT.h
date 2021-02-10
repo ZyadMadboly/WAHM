@@ -13,8 +13,8 @@
 
 void _7SEG_init(void);
 void _7SEG_RESET (void);
-void _7SEG_ON (Uint8t num , Uint8t position);
+void _7SEG_ON (Uint8t num);
 void _7SEG_CLR (void); 
-void _7SEG_DISPLAY(Uint8t left , Uint8t right , Uint16t time_);
+//void _7SEG_DISPLAY(Uint8t left , Uint8t right , Uint16t time_);
 
 #endif /* 7SEGMENT_H_ */

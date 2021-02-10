@@ -16,12 +16,12 @@ int main(void)
 {
     /* Replace with your application code */
 	_7SEG_init(); 
-	
+	_7SEG_ON(3);
     while (1) 
     {
-		if (count >99) count=0 ; 
-		display_number(count);
-		count ++ ; 
+		//if (count >99) count=0 ; 
+		//display_number(count);
+		//count ++ ; 
     }
 }
 

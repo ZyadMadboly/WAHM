@@ -9,7 +9,6 @@ typedef signed char Int8t ;
 typedef signed short int  Int16t ; 
 typedef signed long int  Int32t ; 
 
-
 typedef float Fint8_t ; 
 typedef float Dint8_t ; 
 
