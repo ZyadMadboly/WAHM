@@ -27,5 +27,5 @@ int main(void)
 void display_number (Uint8t num){
 	Uint8t left_num  = num/10 ; 
 	Uint8t right_num = num- (left_num*10); 
-	_7SEG_DISPLAY(left_num , right_num ,1000);
+	_7SEG_DISPLAY(left_num , right_num ,200);
 }

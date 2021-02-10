@@ -72,8 +72,8 @@ void _7SEG_DISPLAY(Uint8t left , Uint8t right , Uint16t time_){
 	time_/=2 ; //cuz this function use 2ms (1ms for each 7seg)
 	for ( ; time_>0 ; time_--){
 		_7SEG_ON (left , 'L');
-		_delay_ms(200);
+		_delay_ms(1);
 		_7SEG_ON (right , 'R');
-		_delay_ms(200);	
+		_delay_ms(1);	
 	}
 }
